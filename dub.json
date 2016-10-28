@@ -1,0 +1,26 @@
+{
+	"name": "dockerhost",
+	"authors": [
+		"Jonathan Gerlach (jonathan@thegerlach.net)"
+	],
+	"description": "A Docker host configuration manager for bash or fish shells.",
+	"copyright": "Copyright © 2016, Jonathan Gerlach",
+	"license": "BSD",
+	"targetName": "dockerHost",
+	"buildTypes": {
+		"debug": {
+			"buildOptions": ["debugMode", "debugInfo", "debugInfoC", "alwaysStackFrame"],
+			"versions": ["Debug"]
+		},
+		"debug-profile": {
+			"buildOptions": ["debugMode", "debugInfo", "profile"]
+		},
+		"release-ldc": {
+			"buildOptions": ["releaseMode", "optimize", "inline"]
+		},
+		"release": {
+			"buildOptions": ["releaseMode", "optimize", "inline", "noBoundsCheck"]
+		}
+	},
+	"versions": ["BashShell"]
+}

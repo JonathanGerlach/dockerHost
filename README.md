@@ -11,7 +11,7 @@ Build with dmd
 
 Build with ldc2
 ```
-# dub build -b release --compiler=ldc2
+# dub build -b release-ldc --compiler=ldc2
 ```
 
 ## How to use

@@ -58,6 +58,12 @@ int main(string[] args)
 			"DOCKER_CERT_PATH": "~/.docker/win2016docker.home.thegerlach.net-DockerKeys/",
 			"DOCKER_HOST": "tcp://win2016docker.home.thegerlach.net:2376",
 			"DOCKER_TLS_VERIFY": "1"
+		],
+		"Azure":
+		[
+			"DOCKER_CERT_PATH": "~/.docker/azure1.thegerlach.net-DockerKeys/",
+			"DOCKER_HOST": "tcp://azure1.thegerlach.net:2376",
+			"DOCKER_TLS_VERIFY": "1"
 		]
 	];
 	

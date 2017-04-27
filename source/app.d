@@ -50,7 +50,7 @@ int main(string[] args)
 			"DOCKER_CERT_PATH": "~/.sdc/docker/JonathanGerlach",
 			"DOCKER_HOST": "tcp://us-east-1.docker.joyent.com:2376",
 			"DOCKER_CLIENT_TIMEOUT": "300",
-			"DOCKER_TLS_VERIFY": "300",
+			"DOCKER_TLS_VERIFY": "1",
 			"COMPOSE_HTTP_TIMEOUT": "1"
 		],
 		"HomeWindows":

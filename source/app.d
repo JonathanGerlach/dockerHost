@@ -82,8 +82,7 @@ int main(string[] args)
 			args.length > 2)
 		{
 			auto second = args[2];
-			auto options = configurations[second];
-			if (options)
+			if (second in configurations)
 			{
 				printOptions(configurations[second]);
 			}
